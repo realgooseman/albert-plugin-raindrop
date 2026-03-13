@@ -5,10 +5,10 @@ IMPORTANT: Albert Launcher v34+ (Python interface v5.0) is needed, as it brought
 
 ## How to use this plugin in Albert Launcher?
 
-1. Download the __init__.py found in this repo
-2. Create a folder in ~/.local/share/albert/python/plugins/ (ex: raindrop)
-3. Paste the __init__.py file inside the newly created folder: ~/.local/share/albert/python/plugins/raindrop/
-4. Start Albert launcher and go to Plugins > Enable "Python Plugins" (if not done) > Enable "Raindrop.io" plugin
+1. Download the latest `__init__.py` found in the [Releases](https://github.com/realgooseman/albert-plugin-raindrop/releases)
+2. Create a folder in `~/.local/share/albert/python/plugins/` (ex: raindrop)
+3. Paste the downloaded `__init__.py` file inside the newly created folder: `~/.local/share/albert/python/plugins/raindrop/`
+4. Launch Albert launcher and go to Plugins > Enable `Python Plugins` (if not done) > Enable `Raindrop.io` plugin
 5. Enter your personal Raindrop.io test token (see below how to get it)
 6. Set your prefered cache refresh interval (default is: 60 min)
 7. On Query page you can change the trigger shortcut (default is: rd)
@@ -18,7 +18,7 @@ IMPORTANT: Albert Launcher v34+ (Python interface v5.0) is needed, as it brought
 1. Access your Raindrop.io account using app/extension or at https://app.raindrop.io.
 2. Click on your user profile in the upper-left corner and select Settings.
 3. Navigate to the Integrations section.
-4. Under For Developers, click + Create new app.
+4. Under For Developers, click `+ Create new app`.
 5. Give your app any descriptive name (ex: Launcher or Raindrop) then click Create.
 6. After creating the app, click on its name in the list to open its details.
 7. Scroll down to the Credentials section and click Create test token.
